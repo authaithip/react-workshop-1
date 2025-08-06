@@ -8,6 +8,7 @@ function App() {
   const randomNumber = Math.random()
   return (
     <>
+      <h1>Hello World</h1>
       <h2 style={{color: 'green', fontSize: '24'}}>My Name is : {myName} , I'am {myAge} year old</h2>
       <h2 className='text '>Sum of {num1} + {num2} = {num1 + num2}</h2>
       <p>Random Number : {randomNumber}</p>
